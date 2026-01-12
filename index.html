@@ -7,6 +7,12 @@
     <title>Home Milan Creyf</title>
     <link rel="stylesheet" href="./style-home.css">
     <script src="./scriptje.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Pixelify+Sans:wght@400..700&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -60,7 +66,7 @@
                 <span class="dot" onclick="currentSlide(3)"></span>
             </div>
 
-            <input id="toggleThemeBtn" class="btn center" type="button" value="ga naar projecten">
+            <button class="btn center" onclick="window.location.href='./projecten.html'">ga naar projecten</button>
 
         </body>
 
@@ -70,18 +76,49 @@
 </section>
 
 <section id="over-mij">
-    <h2>Over Mij</h2>
-    <p>
-        Hey allemaal, ik ben <strong>Milan Creyf</strong>. Ik woon in Sint-Truiden.
-        Ik heb 2 jaar Crossmedia gevolgd, waar ik HTML, CSS, JavaScript, MySQL
-        en een beetje PHP heb geleerd. Daarnaast heb ik veel ervaring met UX/UI
-        en grafisch design.
-    </p>
-    <p>
-        Momenteel studeer ik Digitale Vormgeving aan PXL. Ik heb al meerdere
-        projecten gemaakt voor echte klanten zoals De Hartjes, Via Tienen en
-        Boutersem. Deze kan je bekijken bij “Projecten”.
-    </p>
+    <div id="over-mij-h2">
+        <h2>Over Mij</h2>
+
+        <p class="over-mij">
+            hey allemaal, Ik ben Milan Creyf. wonen doe ik in Sint-Truiden. Ik heb al 2 jaar gedaan in Crossmedia. dit
+            houd
+            in dat
+            ik html, CSS, javascript, MYSQL, en een beetje PHP heb gezien. ook heb ik al veel gezien over UX en UI. Ook
+            heb
+            ik
+            ervaring in het grafische aspect van designen. Sinds ik in grafische technieken heb gezeten. Nu zit ik in de
+            PXL
+            en doe
+            ik digitale vormgeving. Er zijn al meerdere projecten dat ik gemaakt heb voor echte klanten. Zoals DE
+            Hartjes,
+            Via
+            Tienen en Boutersem. Deze kan je bekijken bij “Projecten”. als je meer wilt leren over mijn levensspan kan
+            je
+            kijken
+            naar “Over Mij”. En hopelijke zien we elkaar snel.
+        </p>
+
+        <input type="button" class="btn center" value="lees meer over mij">
+    </div>
+    <div class="card">
+        <div class="profile-image">
+            <img src="./assets/profiel-foto.png" alt="Milan Creyf">
+        </div>
+
+        <h2 class="press-start-font">&lt;Milan Creyf&gt;</h2>
+
+        <div class="dots">
+            <span><a href="https://www.instagram.com/milancreyf.0301/"><img src="./assets/media/insta.png"></a></span>
+            <span><a href="https://www.facebook.com/milorian_creyf"><img src="./assets/media/facebook.png"></a></span>
+            <span><a href="mailto:milan.creyf@gmail.com"><img src="./assets/media/e-mail.png"></a></span>
+            <span><a href="tel:+32470123456"><img src="./assets/media/phone.png"></a></span>
+            <span><a href="https://www.youtube.com/@milorian"><img src="./assets/media/YouTube.png"></a></span>
+        </div>
+
+        <a href="#" class="btn">contacteer me</a>
+    </div>
+
+
 </section>
 
 <section id="skills">
@@ -97,21 +134,29 @@
         <li>Illustrator</li>
         <li>Premiere Pro</li>
     </ul>
+
+    <img class="center" src="./assets/graph.png">
 </section>
 
-<section id="projecten">
-    <h2>Projecten</h2>
-    <p>Bekijk hier binnenkort mijn projecten.</p>
-</section>
 
-<section id="contact">
-    <h2>Contact</h2>
-    <p>E-mail: <a href="mailto:milan@example.com">milan@example.com</a></p>
-    <p>YouTube: <a href="#">Mijn kanaal</a></p>
-    <p class="secret">secret :O</p>
-</section>
 
 <footer>
+    <div class="footerflex">
+        <span>
+            <h2>Contact</h2>
+            <p>E-mail: <a href="mailto:milan@example.com">milan@example.com</a></p>
+            <p>YouTube: <a href="https://www.youtube.com/@milanenmattijs">Mijn kanaal</a></p>
+        </span>
+        <span class="vertical">
+            <a class="" href="./projecten.html">projecten</a>
+            <a class="" href="./over-mij.html">over mij</a>
+            <a class="" href="./contact.html">contacten</a>
+        </span>
+        <span class="vertical">
+            <a href="./portfolio.html">portfolio</a>
+            <a class="secret">secret :O</a>
+        </span>
+    </div>
     <p>&copy; 2026 Milan Creyf</p>
 </footer>
 
