@@ -5,12 +5,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style-home.css">
     <script src="./scriptje.js" defer></script>
 </head>
 
 <body>
-    <p>Milan</p>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#over-mij">Over mij</a></li>
+                <li><a href="./projecten.html">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <img class="logo" src="./assets/logo.png" alt="Logo Milan Creyf">
+        <h1 class="white-border">Milan Creyf</h1>
+        <p class="font-black white-border">Digitale Vormgeving & Crossmedia</p>
+    </section>
+
+    <section>
+
+        <body>
+
+            <h2>mijn projecten</h2>
+
+            <div class="slideshow-container">
+
+                <div class="slide fade">
+                    <img src="./assets/home-velpeleven-short.png" alt="Slide 1">
+                </div>
+
+                <div class="slide fade">
+                    <img src="img2.jpg" alt="Slide 2">
+                </div>
+
+                <div class="slide fade">
+                    <img src="img3.jpg" alt="Slide 3">
+                </div>
+
+                <!-- Navigation buttons -->
+                <a class="prev" onclick="changeSlide(-1)">❮</a>
+                <a class="next" onclick="changeSlide(1)">❯</a>
+
+            </div>
+
+            <!-- Dots -->
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+            <input id="toggleThemeBtn" class="btn center" type="button" value="ga naar projecten">
+
+        </body>
+
+</html>
+
+
+</section>
+
+<section id="over-mij">
+    <h2>Over Mij</h2>
+    <p>
+        Hey allemaal, ik ben <strong>Milan Creyf</strong>. Ik woon in Sint-Truiden.
+        Ik heb 2 jaar Crossmedia gevolgd, waar ik HTML, CSS, JavaScript, MySQL
+        en een beetje PHP heb geleerd. Daarnaast heb ik veel ervaring met UX/UI
+        en grafisch design.
+    </p>
+    <p>
+        Momenteel studeer ik Digitale Vormgeving aan PXL. Ik heb al meerdere
+        projecten gemaakt voor echte klanten zoals De Hartjes, Via Tienen en
+        Boutersem. Deze kan je bekijken bij “Projecten”.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Figma</li>
+        <li>InDesign</li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>Premiere Pro</li>
+    </ul>
+</section>
+
+<section id="projecten">
+    <h2>Projecten</h2>
+    <p>Bekijk hier binnenkort mijn projecten.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>E-mail: <a href="mailto:milan@example.com">milan@example.com</a></p>
+    <p>YouTube: <a href="#">Mijn kanaal</a></p>
+    <p class="secret">secret :O</p>
+</section>
+
+<footer>
+    <p>&copy; 2026 Milan Creyf</p>
+</footer>
+
+</body>
+
+</html>
+
 
 
 </body>
