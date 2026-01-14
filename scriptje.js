@@ -1,13 +1,14 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
-// Next / previous
+
 function changeSlide(n) {
     showSlides(slideIndex += n);
 }
 
-// Dot controls
+
 function currentSlide(n) {
+
     showSlides(slideIndex = n);
 }
 

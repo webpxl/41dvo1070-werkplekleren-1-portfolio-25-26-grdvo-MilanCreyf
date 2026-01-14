@@ -23,7 +23,7 @@ header {
     gap: 0.5rem;
 }
 
-a {
+footer a {
     color: white;
     text-decoration: none;
 }
@@ -62,7 +62,7 @@ a {
 }
 
 .nav-links a:hover {
-    color: #00bcd4;
+    color: #1A00FF;
 }
 
 .hero {
@@ -100,6 +100,7 @@ a {
     text-decoration: none;
     border-radius: 5px;
     border: none;
+    font-size: 1.2rem;
 }
 
 section {
@@ -193,7 +194,7 @@ h2 {
 .btn-small {
     align-self: flex-start;
     padding: 0.5rem 1rem;
-    background: #00bcd4;
+    background: #1A00FF;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -201,16 +202,17 @@ h2 {
 }
 
 .btn-small:hover {
-    background: #0097a7;
+    background: #1A00FF;
 }
 
 .nav-links .active {
-    color: #00bcd4;
+    color: #1A00FF;
 }
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 800px;
+    max-width: 1000px;
+    height: 500px;
     position: relative;
     margin: auto;
     overflow: hidden;
@@ -268,13 +270,14 @@ h2 {
 .dots {
     text-align: center;
     margin-top: 15px;
+    background-color: #fdfdfd;
 }
 
 .dot {
     height: 12px;
     width: 12px;
     margin: 0 4px;
-    background-color: #bbb;
+    background-color: #141414;
     border-radius: 50%;
     display: inline-block;
     cursor: pointer;
@@ -292,6 +295,7 @@ h2 {
 
 .white-border {
     background-color: rgba(249, 249, 249, 0.5);
+    padding: 5px;
 }
 
 .press-start-font {
@@ -333,21 +337,25 @@ h2 {
 }
 
 /* DOTS */
-.dots {
+.media-dots {
     display: flex;
     justify-content: center;
     gap: 12px;
     margin-bottom: 2rem;
 }
 
-.dots span {
+.media-dots span {
     width: 60px;
     height: 60px;
     background-color: white;
     border-radius: 50%;
 }
 
-.dots span img {
+.media-dots span img {
     width: 60px;
     height: 60px;
+}
+
+.dots .active {
+    background-color: #1A00FF;
 }

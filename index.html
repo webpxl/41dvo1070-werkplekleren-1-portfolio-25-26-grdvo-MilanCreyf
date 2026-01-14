@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <span id="top"></span>
     <header>
         <nav>
             <ul class="nav-links">
@@ -35,130 +36,122 @@
 
     <section>
 
-        <body>
+        <h2>mijn projecten</h2>
 
-            <h2>mijn projecten</h2>
+        <div class="slideshow-container">
 
-            <div class="slideshow-container">
-
-                <div class="slide fade">
-                    <img src="./assets/home-velpeleven-short.png" alt="Slide 1">
-                </div>
-
-                <div class="slide fade">
-                    <img src="img2.jpg" alt="Slide 2">
-                </div>
-
-                <div class="slide fade">
-                    <img src="img3.jpg" alt="Slide 3">
-                </div>
-
-                <!-- Navigation buttons -->
-                <a class="prev" onclick="changeSlide(-1)">❮</a>
-                <a class="next" onclick="changeSlide(1)">❯</a>
-
+            <div class="slide fade">
+                <img src="./assets/carousel/home-velpeleven-short.png" alt="Slide 1">
             </div>
 
-            <!-- Dots -->
-            <div class="dots">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
+            <div class="slide fade">
+                <img src="./assets/carousel/homepagina-echty-short.png" alt="Slide 2">
             </div>
 
-            <button class="btn center" onclick="window.location.href='./projecten.html'">ga naar projecten</button>
+            <div class="slide fade">
+                <img src="./assets/carousel/jigsaw.png" alt="Slide 3">
+            </div>
 
-        </body>
+            <!-- Navigation buttons -->
+            <a class="prev" onclick="changeSlide(-1)">❮</a>
+            <a class="next" onclick="changeSlide(1)">❯</a>
 
-</html>
-
-
-</section>
-
-<section id="over-mij">
-    <div id="over-mij-h2">
-        <h2>Over Mij</h2>
-
-        <p class="over-mij">
-            hey allemaal, Ik ben Milan Creyf. wonen doe ik in Sint-Truiden. Ik heb al 2 jaar gedaan in Crossmedia. dit
-            houd
-            in dat
-            ik html, CSS, javascript, MYSQL, en een beetje PHP heb gezien. ook heb ik al veel gezien over UX en UI. Ook
-            heb
-            ik
-            ervaring in het grafische aspect van designen. Sinds ik in grafische technieken heb gezeten. Nu zit ik in de
-            PXL
-            en doe
-            ik digitale vormgeving. Er zijn al meerdere projecten dat ik gemaakt heb voor echte klanten. Zoals DE
-            Hartjes,
-            Via
-            Tienen en Boutersem. Deze kan je bekijken bij “Projecten”. als je meer wilt leren over mijn levensspan kan
-            je
-            kijken
-            naar “Over Mij”. En hopelijke zien we elkaar snel.
-        </p>
-
-        <input type="button" class="btn center" value="lees meer over mij">
-    </div>
-    <div class="card">
-        <div class="profile-image">
-            <img src="./assets/profiel-foto.png" alt="Milan Creyf">
         </div>
 
-        <h2 class="press-start-font">&lt;Milan Creyf&gt;</h2>
-
+        <!-- Dots -->
         <div class="dots">
-            <span><a href="https://www.instagram.com/milancreyf.0301/"><img src="./assets/media/insta.png"></a></span>
-            <span><a href="https://www.facebook.com/milorian_creyf"><img src="./assets/media/facebook.png"></a></span>
-            <span><a href="mailto:milan.creyfyt@gmail.com"><img src="./assets/media/e-mail.png"></a></span>
-            <span><a href="tel:+32470123456"><img src="./assets/media/phone.png"></a></span>
-            <span><a href="https://www.youtube.com/@milanenmattijs"><img src="./assets/media/YouTube.png"></a></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
 
-        <a href="#" class="btn">contacteer me</a>
-    </div>
+        <button class="btn center" onclick="window.location.href='./projecten.html'">ga naar projecten</button>
+
+    </section>
+
+    <section id="over-mij">
+        <div id="over-mij-h2">
+            <h2>Over Mij</h2>
+
+            <p class="over-mij">
+                hey allemaal, Ik ben Milan Creyf. wonen doe ik in Sint-Truiden. Ik heb al 2 jaar gedaan in Crossmedia.
+                dit houd in dat ik html, CSS, javascript, MYSQL, en een beetje PHP heb gezien. ook heb ik al veel gezien
+                over UX en UI EN ook al over CMS systemen, zoals Wordpress. Ook heb ik ervaring in het grafische aspect
+                van designen. Sinds ik in grafische
+                technieken heb gezeten. Nu zit ik in de PXL en doe ik digitale vormgeving. Er zijn al meerdere projecten
+                dat ik gemaakt heb voor echte klanten. Zoals De Hartjes, Via Tienen en Boutersem. Deze kan je bekijken
+                bij “Projecten”. als je meer wilt leren over mijn levensspan kan je kijken naar “Over Mij”. En hopelijke
+                zien we elkaar snel.
+            </p>
+
+            <input type="button" class="btn" value="lees meer over mij">
+        </div>
+        <div class="card">
+            <div class="profile-image">
+                <img src="./assets/profiel-foto.png" alt="Milan Creyf">
+            </div>
+
+            <h2 class="press-start-font">&lt;Milan Creyf&gt;</h2>
+
+            <div class="media-dots">
+                <span><a href="https://www.instagram.com/milancreyf.0301/">
+                        <img src="./assets/media/insta.png"></a></span>
+                <span><a href="https://www.facebook.com/milorian_creyf">
+                        <img src="./assets/media/facebook.png"></a></span>
+                <span><a href="mailto:milan.creyfyt@gmail.com">
+                        <img src="./assets/media/e-mail.png"></a></span>
+                <span><a href="tel:+32470123456">
+                        <img src="./assets/media/phone.png"></a></span>
+                <span><a href="https://www.youtube.com/@milanenmattijs">
+                        <img src="./assets/media/YouTube.png"></a></span>
+            </div>
+
+            <a href="#" class="btn">contacteer me</a>
+        </div>
 
 
-</section>
+    </section>
 
-<section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>PHP</li>
-        <li>Figma</li>
-        <li>InDesign</li>
-        <li>Photoshop</li>
-        <li>Illustrator</li>
-        <li>Premiere Pro</li>
-    </ul>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>Figma</li>
+            <li>InDesign</li>
+            <li>Photoshop</li>
+            <li>Illustrator</li>
+            <li>Premiere Pro</li>
+        </ul>
 
-    <img class="center" src="./assets/graph.png">
-</section>
+        <img class="center" src="./assets/graph.png">
+    </section>
 
 
 
-<footer>
-    <div class="footerflex">
-        <span>
-            <h2>Contact</h2>
-            <p>E-mail: <a href="mailto:milancreyfyt@gmail.com">milancreyfyt@gmail.com</a></p>
-            <p>YouTube: <a href="https://www.youtube.com/@milanenmattijs">Mijn kanaal</a></p>
-        </span>
-        <span class="vertical">
-            <a class="" href="./projecten.html">projecten</a>
-            <a class="" href="./over-mij.html">over mij</a>
-            <a class="" href="./contact.html">contacten</a>
-        </span>
-        <span class="vertical">
-            <a href="./portfolio.html">portfolio</a>
-            <a href="./SuperSecret.html" class="secret">secret :O</a>
-        </span>
-    </div>
-    <p>&copy; 2026 Milan Creyf</p>
-</footer>
+    <footer>
+        <div class="footerflex">
+            <span>
+                <h2>Contact</h2>
+                <p>E-mail: <a href="mailto:milancreyfyt@gmail.com">milancreyfyt@gmail.com</a></p>
+                <p>YouTube: <a href="https://www.youtube.com/@milanenmattijs">Mijn kanaal</a></p>
+            </span>
+            <span class="vertical">
+                <h2>pagina's</h2>
+                <a href="./projecten.html">projecten</a>
+                <a href="./over-mij.html">over mij</a>
+                <a href="./contact.html">contacten</a>
+            </span>
+            <span class="vertical">
+                <a href="./portfolio.html">portfolio</a>
+                <a href="./SuperSecret.html" class="secret">secret :O</a>
+            </span>
+        </div>
+        <p>&copy; 2026 Milan Creyf</p>
+        <a href="#top">back to top</a>
+    </footer>
 
 </body>
 
