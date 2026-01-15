@@ -4,39 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mijn Projecten</title>
+    <title>Document</title>
+    <script src="./script-proj-ind.js" defer></script>
     <link rel="stylesheet" href="./css/style-home.css">
-    <script src="./script-proj.js" defer></script>
 </head>
 
 <body>
     <header>
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="over-mij.html">Over mij</a></li>
-                <li><a href="projecten.html" class="active">Projecten</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#over-mij">Over mij</a></li>
+                <li><a class="active" href="./projecten.html">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="grid-selector">
-        <div id="web"> web</div>
-        <div id="grafisch"> grafisch</div>
-        <div id="buiten-school"> buiten school</div>
-        <div id="all"> All</div>
-    </section>
 
-    <section class="projects">
-        <h1>Projecten</h1>
+    <section class="project-detail">
+        <h1 id="title"></h1>
+        <p id="date"></p>
 
-        <div class="project-grid">
-
-
+        <div id="afbeeldingen">
+            <img id="img1">
+            <img id="img2">
+            <img id="img3">
         </div>
-    </section>
 
+        <p id="description"></p>
+        <a class="btn-small" href="./projecten.html">Terug naar projecten</a>
+    </section>
 
     <footer>
         <div class="footerflex">
@@ -59,6 +57,7 @@
         <p>&copy; 2026 Milan Creyf</p>
         <a href="#top">back to top</a>
     </footer>
+
 
 </body>
 
